@@ -2,42 +2,25 @@
 	clear:both;
 }
 
-.circle {
-    font-weight:bold;
-    font-style: italic;
-    position: relative;
-    border-radius: 100%;
-    background: #f84342;
-    border: 1px solid #F7F7F7;
-    width: 70px;
-    height: 70px;
-    margin: 0 auto;
-    text-align: center;
-    color: #FFF;
-    font-size: 10px;
-    line-height: 10px;
-    cursor: pointer;
-    transform:rotate(11deg);
-    -ms-transform:rotate(11deg); /* IE 9 */
-    -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
-    margin-top: 10px;
-}
 
 .slogan{
-	font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+	font-family: Helvetica, Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 	font-style: italic;
-	font-size: 15px;
-	padding-top: 30px;	
+	font-size: 12px;
+    margin-top: -15px;
+    text-align: center;	
+    color: #B9B9B8;
 }
 
 .links{
-	padding-top: 10px;
-
+	padding-top: 35px;
+    text-align: center;
 }
 
 .links a{
 	color: #B9B9B8;
-	font-size: 20px;
+	font-size: 25px;
+    font-family: "parisine-plus-std-gris", sans-serif;
 	font-weight: bold;
 }
 
@@ -48,12 +31,30 @@
 
 .header{
 	border-top: 9px solid #222222;
+
 }
 
 hr {
 	clear:both;
 }
 
+.logo {
+    font-family: "ff-providence-web-pro", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+h1 {
+    font-family: "parisine-plus-std-gris", sans-serif;
+}
+
+h2 {
+    font-family: "parisine-plus-std-gris", sans-serif;
+    
+}
 
 
 
