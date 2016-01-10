@@ -14,15 +14,17 @@
 		<%= link_to 'About', '#' %>
 	</div>
 	<div class="col-xs-4 fox">
-		<div class=" row logo">
+		<%= link_to root_path do %>
+		<div class="row logo">
 		"The Fox"
 		</div>
 		<div class=" row slogan">
 		Quietly Observing Humans Since 1983
-		</div>		
+		</div>	
+		<% end %>	
 	</div>
 	<div class="col-xs-4 links">
-		<%= link_to 'Contribute', '#' %>
+		<%= link_to 'Contribute', new_quote_path %>
 	</div>
 
 </header>
@@ -37,10 +39,10 @@
 <div class="footer">
 	<div class="container">
 	<div class="col-xs-12 next-quote">
-		<%= link_to "Show me more!", "#" %>
+		<%= link_to "Show me more!", root_path, :class => 'next-quote' %>
 	</div>
 	</div>
-	<div="container">
+	<div="container made-by">
 		<p class="text-muted">Hacked with love, by <a href="http://cacauzen.me">Claudia</a></p>
 	</div>
 </div>
