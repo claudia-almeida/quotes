@@ -4,7 +4,7 @@
 
 
 .slogan{
-	font-family: Helvetica, Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+	font-family: "parisine-plus-std-gris", sans-serif;
 	font-style: italic;
 	font-size: 12px;
     margin-top: -15px;
@@ -44,7 +44,7 @@ hr {
     font-weight: bold;
     margin-top: 10px;
     text-align: center;
-    
+
 }
 
 h1 {
@@ -56,9 +56,31 @@ h2 {
     
 }
 
+/****STICKY FOOTER****/
 
+.footer p {
+    font-family: "parisine-plus-std-gris", sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
 
+.next-quote {
+    font-family: "parisine-plus-std-gris", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    
+}
 
+.next-quote a{
+    color:#f84342;
+}
+
+.next-quote a:hover{
+    text-decoration: none;
+    font-style: italic;
+}
+
+/****MEDIA QUERIES****/
 
 
 
