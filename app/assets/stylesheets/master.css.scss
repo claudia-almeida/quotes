@@ -35,7 +35,6 @@ a:hover {
 
 .header{
 	border-top: 9px solid #222222;
-
 }
 
 hr {
@@ -48,7 +47,7 @@ hr {
     font-weight: bold;
     margin-top: 10px;
     text-align: center;
-    color: #B9B9B8;
+    color: #3A4349;
 }
 
 .logo:hover {
@@ -58,20 +57,17 @@ hr {
 
 h1 {
     font-family: "parisine-plus-std-gris", sans-serif;
+    color: #3A4349;
 }
 
 h2 {
     font-family: "parisine-plus-std-gris", sans-serif;
-    
+    color: #3A4349;
 }
 
 /****STICKY FOOTER****/
 
-.footer p {
-    font-family: "parisine-plus-std-gris", sans-serif;
-    text-align: center;
-    padding-top: 20px;
-}
+
 
 .next-quote {
     font-family: "parisine-plus-std-gris", sans-serif;
@@ -89,13 +85,21 @@ h2 {
     text-transform: uppercase;
 }
 
+.footer p {
+    font-family: "parisine-plus-std-gris", sans-serif;
+    text-align: center;
+    color: #ffffff;
+    background-color: #3A4349;
+    padding: 20px;
+}
+
 .text-muted a{
     color: #B9B9B8;
 }
 
 .text-muted a:hover{
     text-decoration: none;
-    color: inherit;
+    color: #ffffff;
 }
 
 /****MEDIA QUERIES****/
