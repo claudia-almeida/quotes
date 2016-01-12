@@ -7,7 +7,6 @@
 	font-family: "parisine-plus-std-gris", sans-serif;
 	font-style: italic;
 	font-size: 12px;
-    margin-top: -15px;
     text-align: center;	
     color: #B9B9B8;
 }
@@ -43,21 +42,21 @@ hr {
 
 .logo {
     font-family: "ff-providence-web-pro", sans-serif;
-    font-size: 65px;
-    font-weight: bold;
-    margin-top: 10px;
     text-align: center;
-    color: #3A4349;
+    max-width: 340px;
+    margin: 0 auto;
+    padding-top: 15px;
 }
 
 .logo:hover {
-    
     color: #f84342;
 }
 
 h1 {
     font-family: "parisine-plus-std-gris", sans-serif;
     color: #3A4349;
+    font-weight: bold;
+    font-size: 50px;
 }
 
 h2 {
@@ -65,31 +64,52 @@ h2 {
     color: #3A4349;
 }
 
+h2 span {
+    color: #B9B9B8;
+    font-family: "parisine-plus-std-gris", sans-serif;
+    font-weight: bold;
+}
+
 /****STICKY FOOTER****/
 
-
-
-.next-quote {
-    font-family: "parisine-plus-std-gris", sans-serif;
-    text-align: center;
-    font-size: 40px;
-    
+.next-quote{
+    position: fixed;
+    bottom: 100px;
+    right: 15%;
 }
 
 .next-quote a{
-    color:#f84342;
+    font-family: "parisine-plus-std-gris", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f84342;
+    display: inline;
+    padding: 15px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+::selection{
+    background-color: #f84342;
+    color: white;
 }
 
 .next-quote a:hover{
     text-decoration: none;
-    text-transform: uppercase;
+    background-color: #000000;
+}
+
+p {
+   font-family: "parisine-plus-std-gris", sans-serif;
+   font-size: 15px; 
 }
 
 .footer p {
     font-family: "parisine-plus-std-gris", sans-serif;
     text-align: center;
     color: #ffffff;
-    background-color: #3A4349;
+    background-color: #000000;
     padding: 20px;
 }
 
@@ -102,8 +122,29 @@ h2 {
     color: #ffffff;
 }
 
+.modal {
+   font-family: "parisine-plus-std-gris", sans-serif;
+   
+}
+
+
 /****MEDIA QUERIES****/
 
+@media (max-width: 750px) {
+  .links {
+    
+    padding-top: 15px;
+  }
+  .links a {
+    font-size: 18px;
+  }
+  .logo{
+    padding: 10px 0;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
 
 
 
