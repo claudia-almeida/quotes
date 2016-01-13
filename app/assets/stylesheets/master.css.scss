@@ -115,13 +115,16 @@ p {
    font-family: "parisine-plus-std-gris", sans-serif;
    font-size: 15px; 
 }
+footer {
+    padding-bottom: 50px;
+}
 
 .footer p {
     font-family: "parisine-plus-std-gris", sans-serif;
     text-align: center;
     color: #ffffff;
     background-color: #000000;
-    padding: 20px;
+    margin-top: 15px;
 }
 
 .text-muted a{
