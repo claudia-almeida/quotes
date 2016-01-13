@@ -11,10 +11,10 @@
 </head>
 <body>
 <header>
-	<div class="col-xs-4 links">
-		<%= link_to 'About', about_path %>
+	<div class="col-xs-12 col-sm-3 header-img">
+		<%= image_tag 'fox.jpg', :class => 'img-responsive' %>
 	</div>
-	<div class="col-xs-4  fox">
+	<div class="col-xs-12 col-sm-6  fox">
 		<%= link_to root_path do %>
 		<div class="row logo">
 		 <%= image_tag 'fox-logo.png', :class => 'img-responsive' %>
@@ -24,10 +24,14 @@
 		</div>	
 		<% end %>	
 	</div>
-	<div class="col-xs-4 links">
-		<!-- Button trigger modal -->
-      <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
-      </button>
+	<div class="col-xs-12 col-sm-3 links">
+		<div class="col-xs-6 col-sm-12 about-link">
+			<%= link_to 'About', about_path %>
+		</div>
+		<div class="col-xs-6 col-sm-12"> 
+			<!-- Button trigger modal -->
+      		<%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
+  		</div>
 	</div>
 
 </header>

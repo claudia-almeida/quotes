@@ -12,8 +12,8 @@
 }
 
 .links{
-	padding-top: 35px;
-    text-align: center;
+	padding-top: 20px;
+    text-align: left;
 }
 
 a:hover {
@@ -25,6 +25,10 @@ a:hover {
 	font-size: 25px;
     font-family: "parisine-plus-std-gris", sans-serif;
 	font-weight: bold;
+}
+
+.about-link{
+    text-align: right;
 }
 
 .links a:hover{
@@ -40,10 +44,18 @@ hr {
 	clear:both;
 }
 
+.header-img .img-responsive{
+    max-width: 80px;
+    border-radius: 50px;
+    margin: 5px auto;
+    
+
+}
+
 .logo {
     font-family: "ff-providence-web-pro", sans-serif;
     text-align: center;
-    max-width: 340px;
+    max-width: 300px;
     margin: 0 auto;
     padding-top: 15px;
 }
@@ -155,7 +167,13 @@ p {
     padding: 10px;
     border-radius: 10px;
     color: #ffffff;
-}
+    }
+    .next-quote{
+    position: fixed;
+    margin: 0 auto;
+    bottom: 70px;
+    right: 10%;
+    }
 }
 
 
