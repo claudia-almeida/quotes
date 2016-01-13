@@ -48,6 +48,7 @@ hr {
     margin: 0 auto;
     margin-top: 10px;
     margin-right: 0;
+    border: 5px solid #B9B9B8;
 }
 
 .logo {
@@ -157,7 +158,8 @@ footer {
     text-align: right;
 }
   .logo{
-    padding: 15px 0;
+    max-width: 200px;
+    padding: 10px 0;
   }
   h1 {
     font-size: 25px;
