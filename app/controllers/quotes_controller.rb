@@ -7,7 +7,7 @@ class QuotesController < ApplicationController
     @quote = Quote.create(quote_params)
     if @quote.invalid?
     	flash[:error] = 'Make sure to write <strong>enough</ strong>, 
-    	but not too much!'
+    	but not too much! (Max 200 Characters)'
     end	
     redirect_to root_path
   end
