@@ -70,12 +70,14 @@ h2 span {
     font-weight: bold;
 }
 
+
 /****STICKY FOOTER****/
 
 .next-quote{
     position: fixed;
+    margin: 0 auto;
     bottom: 100px;
-    right: 15%;
+    right: 10%;
 }
 
 .next-quote a{
@@ -84,7 +86,6 @@ h2 span {
     font-size: 20px;
     font-weight: bold;
     background-color: #f84342;
-    display: inline;
     padding: 15px;
     border-radius: 10px;
     color: #ffffff;
@@ -133,17 +134,28 @@ p {
 @media (max-width: 750px) {
   .links {
     
-    padding-top: 15px;
+    padding: 15px;
   }
   .links a {
     font-size: 18px;
   }
   .logo{
-    padding: 10px 0;
+    padding: 15px 0;
   }
   h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
+  h2 {
+    font-size: 18px;
+  }
+  .next-quote a{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #f84342;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+}
 }
 
 
