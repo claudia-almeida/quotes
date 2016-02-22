@@ -1,8 +1,1 @@
-<<<<<<< HEAD
 == README
-=======
-== README
-
-"I say pizza suuuuucks!!"
-- Marco
->>>>>>> 16bdd9b568174e2b17555adb4ccb6c4b5e4c2a3f
